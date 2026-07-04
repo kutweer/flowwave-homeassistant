@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Verbinden met Flowwave",
+        "description": "Plak het apparaattoken van **flowwave.nl → Apparaten → Flow One verbinden** en kies welke sensoren je wilt versturen. Vermogenssensoren worden automatisch naar watt omgerekend.",
+        "data": {
+          "token": "Apparaattoken",
+          "consumption": "Stroom die je nu gebruikt",
+          "production": "Stroom terug naar het net",
+          "solar": "Zonproductie",
+          "gas": "Gasmeterstand",
+          "voltage": "Spanning",
+          "scan_interval": "Update-interval (seconden)"
+        }
+      }
+    },
+    "error": {
+      "invalid_token": "Flowwave accepteerde dat apparaattoken niet. Kopieer het opnieuw van je Apparaten-pagina.",
+      "cannot_connect": "Kon flowwave.nl niet bereiken. Controleer de internetverbinding en probeer opnieuw."
+    },
+    "abort": {
+      "already_configured": "Dit Flowwave-apparaat is al ingesteld."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Flowwave-sensoren",
+        "description": "Wijzig welke sensoren naar Flowwave worden gestuurd, of het update-interval.",
+        "data": {
+          "consumption": "Stroom die je nu gebruikt",
+          "production": "Stroom terug naar het net",
+          "solar": "Zonproductie",
+          "gas": "Gasmeterstand",
+          "voltage": "Spanning",
+          "scan_interval": "Update-interval (seconden)"
+        }
+      }
+    }
+  }
+}

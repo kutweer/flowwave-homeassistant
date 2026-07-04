@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Flowwave",
+        "description": "Paste the device token from **flowwave.nl → Devices → Connect Flow One**, then choose which sensors to send. Power sensors are converted to watts automatically.",
+        "data": {
+          "token": "Device token",
+          "consumption": "Electricity used right now",
+          "production": "Electricity returned to the grid",
+          "solar": "Solar production",
+          "gas": "Gas meter total",
+          "voltage": "Voltage",
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "invalid_token": "Flowwave didn't accept that device token. Copy it again from your Devices page.",
+      "cannot_connect": "Couldn't reach flowwave.nl. Check the internet connection and try again."
+    },
+    "abort": {
+      "already_configured": "This Flowwave device is already set up."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Flowwave sensors",
+        "description": "Change which sensors are sent to Flowwave, or the update interval.",
+        "data": {
+          "consumption": "Electricity used right now",
+          "production": "Electricity returned to the grid",
+          "solar": "Solar production",
+          "gas": "Gas meter total",
+          "voltage": "Voltage",
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  }
+}

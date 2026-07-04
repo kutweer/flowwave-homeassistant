@@ -1,0 +1,12 @@
+{
+  "domain": "flowwave",
+  "name": "Flowwave",
+  "codeowners": ["@kutweer"],
+  "config_flow": true,
+  "documentation": "https://github.com/kutweer/flowwave-homeassistant",
+  "integration_type": "service",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/kutweer/flowwave-homeassistant/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
